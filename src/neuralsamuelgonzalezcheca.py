@@ -70,7 +70,7 @@ def encodeData(check,test_check,validate_check):
   return encode_train,encode_test,encode_validate
 
 #data assignment
-train, test, valid  = shuffData(reader)
+train, test, valid = shuffData(reader)
 
 targetTrain, targetTest, targetVal = setTarget(train,test,valid)
 
@@ -110,3 +110,5 @@ print("Valid accuracy:", valid_loss[1])
 
 prediction = model.predict(test[:5])
 print("Prediction: ", prediction[1])
+
+reader.to_csv('encoded_data.csv');
