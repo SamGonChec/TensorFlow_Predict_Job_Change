@@ -1,6 +1,8 @@
 #This is a repo for predicting who is likely to change jobs
 #Inside the Docs File there is the project Report and the instructions
 #Inside the src folder is the program code.
+<br>
+The clean data file is encoded_data.csv
 
 #Divide Data into 70% training, 15% test, 15% validation
 #TensorFlow project by Samuel Gonzalez Checa
